@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors: let's play!</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <p>Take a break from your life and enjoy the game!</p>
+        </header>
+        <main>
+            <div class="container">
+                <div class="text-box">
+                    <h2>Hello, <span id="username-greating">player</span>!</h2>
+                    <p>Change your name and let’s start the game</p>
+                </div>
+                <div id="players-info">
+                    <div class="player-box">
+                        <div class="nickname-label">
+                            <input id="username" type="text" maxlength="15" value="player">
+                        </div>
+                        <p id="user-score" class="score">0</p>
+                        <p>
+                            <span id="rock">👊</span>
+                            <span id="paper">🖐</span>
+                            <span id="scissors">✌</span>
+                        </p>
+                    </div>
+                    <div class="player-box">
+                        <div class="nickname-label">
+                            <input id="username" type="text" maxlength="15" value="computer">
+                        </div>
+                        <p id="comp-score" class="score">0</p>
+                        <p>
+                            <span id="rock">👊</span>
+                            <span id="paper">🖐</span>
+                            <span id="scissors">✌</span>
+                        </p>
+                    </div>
+                </div>
+                <button type="button">Start</button>
+            </div>
+        </main>
+        <footer>
+            <p>Developed by Yegor Kravchenko</p>
+        </footer>
+    </body>
+</html>
