@@ -145,7 +145,7 @@ footer {
 }
 
 footer p {
-    color: var(--black-color);
+    color: white;
     font-size: 1.4rem;
 }
 
