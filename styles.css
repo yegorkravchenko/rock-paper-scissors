@@ -115,11 +115,19 @@ h2 {
     font-size: 4.8rem;
 }
 
-#player-move {
+#player-moves {
     cursor: pointer;
 }
 
-#player-move span:nth-child(2) {
+#player-moves span {
+    opacity: 0.5;
+}
+
+#player-moves .selected {
+    opacity: 1;
+}
+
+#player-moves span:nth-child(2) {
     margin: 0 15px;
 }
 
