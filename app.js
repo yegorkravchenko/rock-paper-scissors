@@ -77,6 +77,8 @@ startBtn.addEventListener('click', () => {
         
         if (parseInt(playerScore.textContent, 10) > parseInt(compScore.textContent, 10)) {
             instructions.textContent = 'You have won the game, congratulations!';
+        } else if (parseInt(playerScore.textContent, 10) === parseInt(compScore.textContent, 10)) {
+            instructions.textContent = 'It\' a draw!';
         } else {
             instructions.textContent = 'You haven\'t won :(';
         }
