@@ -183,3 +183,25 @@ footer p {
         margin: 75px 0 20px 0;
     }
 }
+
+@media screen and (max-width: 650px) {
+    :root {
+        font-size: 8px;
+    }
+
+    body {
+        min-width: 100vw;
+    }
+
+    header {
+        margin: 55px 0 35px 0;
+    }
+    
+    #players-info {
+        flex-direction: column-reverse;
+    }
+
+    .player-box:last-child {
+        margin-bottom: 60px;
+    }
+}
